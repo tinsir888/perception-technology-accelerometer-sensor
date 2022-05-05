@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"><!-- add a vertical linear layout -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acc" /><!-- add a TextView control -->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="accelerometer sensor"
+        android:textSize="24sp" /><!-- add a TextView control -->
+    <TextView
+        android:id="@+id/myTextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="acceleration on x-axis direction: NULL"
+        android:textSize="14sp" /><!-- add a TextView control -->
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="acceleration on y-axis direction: NULL"
+        android:textSize="14sp" /><!-- add a TextView control -->
+    <TextView
+        android:id="@+id/myTextView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="acceleration on z-axis direction: NULL"
+        android:textSize="14sp" /><!-- add a TextView control -->
+    <TextView
+        android:id="@+id/myTextView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="whether the device is stationary: NULL"
+        android:textSize="14sp" />
+</LinearLayout>
